@@ -1,0 +1,570 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #a0c3dc;
+}
+.container{
+	width: 1024px;
+	height: 3910px;
+	background-color: rgba(255,255,255,1.00);
+	margin: 0 auto;
+}
+.menu{
+	width: 1024px;
+	height: 60px;
+	
+	
+}
+.logo img{
+	height: 50px;
+	margin-left: 140px;
+	margin-top: 5px;
+}
+.slider{
+	width: 1024px;
+	height: 464px;
+	position: relative;
+	
+}
+.sliderinfo{
+	width: 359px;
+	height: 243px;
+	position: absolute;
+	bottom: 200px;
+	left: 163px;
+	animation: dichuyenmo 2s forwards;
+}
+@keyframes dichuyenmo{
+	0%{
+		opacity: 0;
+		left: 20px;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.readmore{
+	width: 106px;
+	height: 39px;
+	background-color: #3B6A36;
+	text-align: center;
+    margin-top: 30px;
+	cursor: pointer;
+	line-height: 39px;
+}
+.readmore span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.readmore span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  right: 10px;
+  color: rgba(255,255,255,1.00);
+  transition: 0.5s;
+}
+
+.readmore:hover span {
+  padding-right: 25px;
+}
+
+.readmore:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#slidertitle{
+	font-family: "Warsaw Gothic";
+	font-size: 90px;
+	color: rgba(255,255,255,1.00);
+}
+#sth{
+	width: 440px;
+	font-family: "SP3 - Hero";
+	color: #FFFFFF;
+	margin-top: -70px;
+	font-size: 15px;
+}
+#btt{
+	color: rgba(255,255,255,1.00);
+	font-family: "SP3 - Hero";
+	font-size: 12px;
+	
+}
+
+.logo{
+	width: 251px;
+	height: 60px;
+	float: left;
+}
+.thanhphantrongmenu{
+	width: 773px;
+	height: 60px;
+	background-color: #FFFFFF;
+	float: right;
+}
+.thanhphantrongmenu ul{
+	list-style-type: none;
+}
+.thanhphantrongmenu>ul>li{
+	float: left;
+	
+	position: relative;
+	
+}
+.thanhphantrongmenu>ul>li>a{
+	color: #2b2b2b;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "SP3 - Hero";
+	font-weight: 500;
+	line-height: 30px;
+	padding: 0px 20px;
+}
+.thanhphantrongmenu ul li ul{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	width: 100px;
+	background-color: #FFFFFF;
+	margin-left: 10px;
+	z-index: 1000;
+	font-family: "SP3 - Hero";
+	font-size: 16px;
+	padding: 20px;
+}
+.thanhphantrongmenu ul li:hover ul{
+	display: block;
+	
+}
+.caidechuahinh{
+	width: 1024px;
+	height: 721px;
+	background-color: #FFFFFF;
+}
+.nut{
+	width: 1024px;
+	height: 115px;
+	margin-top: 50px;
+	margin-left: 80px;
+
+		
+}
+.nut1{
+	float: left;
+	width: 252px;
+	height: 94px;
+	background-color: #FFFFFF;
+	margin-top: 9.5px;
+	margin-left: 23px;
+	border: 3px double rgba(160,160,160,0.50);
+	text-align: center;
+	font-size: 24px;
+	font-family: "SP3 - Hero";
+	color: #698964;
+	line-height: 44px;
+	cursor: pointer;
+-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+  .nut1:hover{
+            background-color: #A7A7A7;
+            color:white;
+        }
+.khunghinh{
+	width: 1024px;
+	height: 486px;
+	margin-top: 50px;
+	margin-left: 65px;
+	
+}
+.hinh{
+	width: 383px;
+	height: 483px;
+	background-color: #FFFFFF;
+	float: left;
+	margin-left: 50px;
+	
+	
+}
+#hinhnhoxiuxinhxinh1{
+	width: 186px;
+	height: 241.5px;
+	float: left;
+	background-color: #FFFFFF;
+	position: relative;
+	
+}
+.thongtin{
+	font-size: 15px;
+	font-family: "SP3 - Hero";
+	position: absolute;
+	top: 181px;
+	left: 63px;
+}
+.giaca{
+	font-size: 11px;
+	font-family: "SP3 - Hero";
+	position: absolute;
+	top: 210px;
+	left: 76px;
+	color: #769671;
+}
+
+#hinhnhoxiuxinhxinh2{
+	width: 186px;
+	height: 241.5px;
+	float: left;
+	background-color: #FFFFFF;
+	margin-left:10px;
+	position: relative;	
+	
+}
+#hinhnhoxiuxinhxinh3{
+	width: 186px;
+	height: 241.5px;
+	float: left;
+	background-color: #FFFFFF;
+	position: relative;
+	
+}
+#hinhnhoxiuxinhxinh4{
+	width: 186px;
+	height: 241.5px;
+	float: left;
+	background-color: #FFFFFF;
+	margin-left:10px;
+	position: relative;	
+	
+}
+.caidechuahinh2{
+	width: 1024px;
+	height: 322px;
+	position: relative;
+}
+.ourapproach{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	top: 5px;
+	left: 320px;
+}
+.viewpresentation{
+	width: 200px;
+	height: 39px;
+	text-align: center;
+	line-height: 39px;
+	color: rgba(255,255,255,1.00);
+	background-color: #3B6A36;
+	cursor: pointer;
+	font-family: "SP3 - Hero";
+	margin-left: 100px;
+}
+.viewpresentation span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.viewpresentation span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  right: 10px;
+  color: rgba(255,255,255,1.00);
+  transition: 0.5s;
+}
+
+.viewpresentation:hover span {
+  padding-right: 25px;
+}
+
+.viewpresentation:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#ourapproachtitle{
+	font-family: "Warsaw Gothic";
+	font-size: 60px;
+	text-align: center;
+	color: #FFFFFF;
+}
+#ourapproachinfo{
+	font-family: "SP3 - Hero";
+	font-size: 13px;
+	color: rgba(255,255,255,0.50);
+	margin-top: -30px;
+	text-align: center;
+}
+
+.caidechuahinh3{
+	width: 1024px;
+	height: 937px;
+	background-color: rgba(255,255,255,1.00);
+}
+#hinhnhoxiuxinhxinh5{
+	width: 186px;
+	height: 241.5px;
+	float: left;
+	background-color: #FFFFFF;
+    position: relative;
+}
+.thongtin1{
+	font-size: 15px;
+	font-family: "SP3 - Hero";
+	position: absolute;
+	top: 181px;
+	left: 63px;
+}
+.giaca1{
+	font-size: 11px;
+	font-family: "SP3 - Hero";
+	position: absolute;
+	top: 210px;
+	left: 66px;
+	color: #769671;
+}
+#hinhnhoxiuxinhxinh6{
+	width: 186px;
+	height: 241.5px;
+	float: left;
+	background-color: #FFFFFF;
+	margin-left:10px;
+	position: relative;
+	
+}
+#hinhnhoxiuxinhxinh7{
+	width: 186px;
+	height: 241.5px;
+	float: left;
+	background-color: #FFFFFF;
+	position: relative;
+	
+}
+#hinhnhoxiuxinhxinh8{
+	width: 186px;
+	height: 241.5px;
+	float: left;
+	background-color: #FFFFFF;
+	margin-left:10px;
+	position: relative;
+}
+.ourteam{
+	width: 1024px;
+	height: 365px;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Warsaw Gothic";
+	color: rgba(29,28,28,0.60);
+}
+.caichuabahinh{
+	margin-left: 100px;
+}
+.ourteam img{
+	float: left;
+	margin-left: 10px;
+}
+.ourpartners{
+	width: 1024px;
+	height: 323px;
+	background-color: #F0EFEB;
+	
+}
+.ourpartners p{
+	color: rgba(29,28,28,0.60);
+	font-size: 40px;
+	text-align: center;
+	font-family: "Warsaw Gothic";
+	padding-top: 63px;
+}
+.ourpartners img{
+	float: left;
+	margin-left: 50px;
+}
+.canchinhicon{
+	margin-left: 20px;
+}
+.info{
+	width: 1024px;
+	height: 374px;
+	background-color: #FFFFFF;
+}
+.info1{
+	width: 1024px;
+	height: 350px;
+	background-color: #2B2A28;
+}
+
+.form{
+	width: 495px;
+	height: 374px;
+	float: right;
+}
+input[type=text]{
+	width: 210px;
+	height: 50px;
+	float: left;
+	padding: 3px;
+	margin-top: 30px;
+	font-family: "SP3 - Hero";
+	border-radius: 4px;
+	border: none;
+	}
+input[type=submit]{
+	width: 200px;
+	height: 50px;
+	background-color: rgba(12,90,0,1.00);
+	font-family: "SP3 - Hero";
+	color: rgba(255,255,255,1.00);
+	font-size: 20px;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}
+typearea[name=cmn]{
+	margin-top: 20px;
+	font-family: "SP3 - Hero";
+	border: none;
+	border-radius: 4px;
+}
+
+
+.canchinhfooterlon{
+	margin-left: 93px;
+}
+.greenday{
+	width: 236px;
+	height: 310px;
+	float: left;
+	}
+.chu{
+	width: 236px;
+	height: 270px;
+	color: rgba(241,232,232,0.50);
+	font-family: "SP3 - Hero";
+	font-size: 15px;
+}
+.newsletter{
+	width: 300px;
+	height: 250px;
+	float: left;
+	margin-left: 50px;
+	}
+.title{
+	color: rgba(255,255,255,1.00);
+	font-family: "SP3 - Hero";
+}
+#dunno{
+	font-family: "SP3 - Hero";
+	color: rgba(241,232,232,0.50);
+	font-size: 15px;
+}
+.clear{
+	clear: both;
+}
+.gallery{
+	width: 210px;
+	height: 310px;
+	float: left;
+	margin-left: 70px;
+	}
+.caichuahinhnho{
+	width: 183px;
+	height: 180px;
+}
+#gal1{
+	width: 89px;
+	height: 89px;
+	float: left;
+	
+}
+#gal2{
+	width: 89px;
+	height: 89px;
+	float: right;
+}
+#gal3{
+	width: 89px;
+	height: 89px;
+	float: left;
+	
+}
+#gal4{
+	width: 89px;
+	height: 89px;
+	float: right;
+}
+#bt1{
+	width:254px;
+	height: 44px;
+	background-color: #41403E;
+	text-align: center;
+	line-height: 44px;
+	font-family: "SP3 - Hero";
+	border-radius: 3px;
+	font-size: 15px;
+	  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+#bt2{
+	width:254px;
+	height: 44px;
+	background-color: #FFFFFF;
+	text-align: center;
+	line-height: 44px;
+	font-family: "SP3 - Hero";
+	font-size: 15px;
+	margin-top: 10px;
+	border-radius: 3px;
+	  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+#bt1 a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#bt1:hover {
+	background-color: aliceblue;
+	color: #41403E;
+	}
+#bt1 a:hover{
+	color: #41403E;
+
+}
+
+#bt2 a{
+	text-decoration: none;
+	color: #41403E;
+}
+#bt2:hover{
+	background-color: #41403E;
+	}
+#bt2 a:hover{
+	color: #ffffff;
+}
+
+
+
+.footer{
+	width: 1024px;
+	height: 50px;
+	background-color: #262525;
+	
+}
+
+
+	
+
+
+
+
+
